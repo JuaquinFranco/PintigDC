@@ -1,0 +1,65 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    text-align: left;
+    padding: 1em;
+    position: relative;
+}
+
+h1{
+    font-size: 300%;
+    font-weight: bold;
+}
+
+.btn1{
+    background-color: #008CBA;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    padding: 8px 16px;
+}
+
+section {
+    padding: 2em;
+    flex: 1;
+}
+
+.container2 {
+max-width: 400px;
+margin: 0 auto;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+    margin-top: auto;
+}
+
+.button {
+width: 100%;
+}
+
+.enrollment-container{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.card-img-top{
+max-width: 500px;
+max-height: 500px
+}
